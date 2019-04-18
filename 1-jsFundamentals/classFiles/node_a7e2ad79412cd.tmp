@@ -1,3 +1,0 @@
-for (let i = Math.random(); i < 2;){
-    console.log(i);
-}

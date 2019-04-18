@@ -1,0 +1,50 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    background-color: #6B7F92;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-family: 'Economica', sans-serif;
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.top {
+    background-color: #7FC0FF;
+}
+
+.help {
+    background-color: #FBFBFB;
+}
+
+.hurt {
+    background-color: #9D9D9D;
+}
+
+#see {
+    width: 300px;
+    height: 300px;
+}
+
+#target {
+    width: 300px;
+    height: 300px;
+}
+
+#book {
+    width: 300px;
+    height: 300px;
+}
+
+#question {
+    width: 300px;
+    height: 300px;
+}
