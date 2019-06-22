@@ -1,0 +1,16 @@
+#styleTest{
+  text-align: center;
+  /* border: 50px dashed green; */
+}
+
+.list {
+  justify-content: space-around;
+  display: flex;
+  background-color: #333;
+  color: white;
+}
+
+img {
+  width: 20%;
+  padding: 2em;
+}

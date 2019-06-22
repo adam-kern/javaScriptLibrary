@@ -37,9 +37,36 @@ if (person == null || person == "") {
       }
 
 
-
-      
-      
-      
-   
+function objectChecker(object){ 
+ return [Object.keys(obj), Object.values(obj), Object.keys(obj).length];
+}
+let obj = {name: 'Batman', age: 42, isVillain: false,};
+objectChecker(obj);
+console.log(objectChecker(obj));
     
+      
+function firstFunction(func){
+  let x=3;
+  for(i=0; i<10; i++){
+   x=func(x)
+    console.log(x)
+    } return x
+  }
+  
+  function secondFunction(variable){
+    variable=variable+5;
+    return variable
+  }
+  firstFunction(secondFunction)
+  
+    
+  function pythConverse(a, b, c){
+    let num1=a*a +b*b;
+    let num2=c*c
+    if (num2 === num1) {
+      return  'yes!'
+      }else{
+        return 'no!'
+      }
+    }
+  console.log(pythConverse(3,4,5))
